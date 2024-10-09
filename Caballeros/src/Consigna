@@ -1,0 +1,13 @@
+/*
+De cada caballero se conoce su nombre, la edad a la que se hizo caballero y su nivel de maldad encubierta.
+Asimismo un caballero está asociado a una constelación.
+De la constelación importa su distancia al sol y si esta constelación está en la banda del cielo
+por donde transitan el sol y los planetas (banda celeste).
+
+
+2-Los caballeros con constelaciones más cercanas al sol: son aquellas que están a menos de mil años luz del sol.
+3-La cantidad de caballeros precoces: se considera caballero precoz a aquel que recibió su armadura antes de los 12
+años.
+4-Los caballeros más poderosos: se consideran así a los caballeros precoces y de oro.
+Para saber si el caballero es de oro debe estar asociado a una constelación que esté en la banda celeste.
+*/
