@@ -1,14 +1,13 @@
 import java.util.ArrayList;
 import java.util.List;
 
-public class Santuario {
+public class Santuario{
 
     //Atributos
     List<Caballero> listaCaballeros = new ArrayList<Caballero>();
 
 
     //Metodos
-
 
     public boolean posibleHades(){
 
@@ -51,7 +50,7 @@ public class Santuario {
 
 //  GETTERS AND SETTERS
 
-    public List<Caballero> getListaCaballeros() {
+    public java.util.List<Caballero> getListaCaballeros() {
         return listaCaballeros;
     }
 

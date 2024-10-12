@@ -7,13 +7,26 @@ public class Caballero {
     int nivelMaldad;
     Constelacion constelacion;
 
+    //Constructores
+
+    public Caballero(String nombre,int edad, int nivelMaldad, Constelacion constelacion){
+
+        this.nombre = nombre;
+        this.edadCaballero = edad;
+        this.nivelMaldad = nivelMaldad;
+        this.constelacion = constelacion;
+
+    }
+
     // Metodos
 
     public boolean constelacionCercanaAlSol(){
+
         return constelacion.cercanaAlSol();
     }
 
     public boolean constelacionBandaCeleste(){
+
         return constelacion.getBandaCeleste();
     }
 
